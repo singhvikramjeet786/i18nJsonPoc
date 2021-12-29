@@ -19,11 +19,11 @@
   <p>{{'main.page.section.languages.subtitle' | translate}}</p>
 
   <div class="card-container">
-    <div class="card card-small">
+    <div class="card card-small" (click)="changeLanguage('en')">
       <span>{{'main.page.section.languages.english' | translate}}</span>
     </div>
 
-    <div class="card card-small">
+    <div class="card card-small" (click)="changeLanguage('fr')">
       <span>{{'main.page.section.languages.french' | translate}}</span>
     </div>
   </div>
