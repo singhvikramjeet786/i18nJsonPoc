@@ -12,13 +12,13 @@ import { catchError } from 'rxjs/operators';
 export function initApp(http: HttpClient, translate: TranslateService){
   return ()=> new Promise<boolean>((resolve:(res:boolean)=> void) =>{
       const defaultLocale = 'en';
-      const translationUrl = '/assets/translations';
+      const translationUrl = './assets/translations';
       const sufix = '.json';
       const storageLocale = localStorage.getItem('locale');
       const locale = storageLocale || defaultLocale;
 
       forkJoin([
-        http.get(`/assets/i18n/dev.json`).pipe(
+        http.get(`./assets/i18n/dev.json`).pipe(
           catchError(()=> of(null))
         ),
         http.get(`${translationUrl}/${locale}${sufix}`).pipe(
