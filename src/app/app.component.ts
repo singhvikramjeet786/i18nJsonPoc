@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'i18nJsonPoc & dynamic-translations';
+  titleVar = 'i18nJsonPoc & dynamic-translations';
 }
