@@ -5,9 +5,18 @@
     "main.page.section.languages.subtitle": "Lets try to change language!",
     "main.page.section.languages.english": "English",
     "main.page.section.languages.french": "Français",
-    "main": {
-            "test" :"vicky"
-        }
+    "main1": {
+            "test" :"vicky",
+            "table":{
+                "tr":{
+                    "th1":"heading1",
+                    "th2":"head2"
+                }
+            }
+        },
+    "test1":{
+        "test2":"Vikram jeet Singh"
+    }
 
     
         
