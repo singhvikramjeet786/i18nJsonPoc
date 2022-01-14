@@ -1,6 +1,32 @@
 {
-    "main.header.welcome": "Bienvenue",
-    "main.page.title": "{{titleInJson}} est en cours d'exécution!",
-    "main.page.section.languages.title": "Langages",
-    "main.page.section.languages.subtitle": "Essayons de changer de langue!"
+  "main.header.welcome": "Bienvenue",
+  "main.page.title": "{{titleInJson}} est en cours d'exécution!",
+  "main.page.section.languages.title": "Langages",
+  "main.page.section.languages.subtitle": "Essayons de changer de langue!",
+  "main1": {
+    "test": "fr_vicky",
+    "table": {
+      "tr": {
+        "th1": "fr_heading1",
+        "th2": "fr_head2"
+      }
+    }
+  },
+  "test1": {
+    "test2": "fr_Vikram jeet Singh",
+    "table": [
+      {
+        "tr": {
+          "th1": "fr_heading1",
+          "th2": "fr_head2"
+        }
+      },
+      {
+        "tr": {
+          "th1": "fr_another TR heading",
+          "th2": "fr_head2"
+        }
+      }
+    ]
   }
+}
