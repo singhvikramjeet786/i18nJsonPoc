@@ -15,7 +15,21 @@
             }
         },
     "test1":{
-        "test2":"Vikram jeet Singh"
+        "test2":"Vikram jeet Singh",
+        "table":[
+            {
+                "tr":{
+                    "th1":"heading1",
+                    "th2":"head2"
+                }
+            },
+            {
+                "tr":{
+                    "th1":"another TR heading",
+                    "th2":"head2"
+                }
+            }
+        ]
     }
 
     
