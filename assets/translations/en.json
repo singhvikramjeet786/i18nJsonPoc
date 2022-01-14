@@ -4,5 +4,34 @@
     "main.page.section.languages.title": "Languages",
     "main.page.section.languages.subtitle": "Lets try to change language!",
     "main.page.section.languages.english": "English",
-    "main.page.section.languages.french": "Français"
+    "main.page.section.languages.french": "Français",
+    "main1": {
+            "test" :"vicky",
+            "table":{
+                "tr":{
+                    "th1":"heading1",
+                    "th2":"head2"
+                }
+            }
+        },
+    "test1":{
+        "test2":"Vikram jeet Singh",
+        "table":[
+            {
+                "tr":{
+                    "th1":"heading1",
+                    "th2":"head2"
+                }
+            },
+            {
+                "tr":{
+                    "th1":"another TR heading",
+                    "th2":"head2"
+                }
+            }
+        ]
+    }
+
+    
+        
 }
